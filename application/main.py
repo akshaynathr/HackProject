@@ -6,6 +6,6 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('dashboard')
+@app.route('/dashboard')
 def dashboard():
-    return render_template()
+    return render_template('dashboard/index.html')
