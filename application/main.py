@@ -26,3 +26,11 @@ def form():
     notification = True
     return render_template('dashboard/forms.html',notification = notification,item_title='Account')
 
+
+
+
+
+@app.route('/recrods')
+def records():
+    notification = True
+    return render_template('dashboard/records_counter.html')
