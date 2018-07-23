@@ -1,20 +1,55 @@
 {% extends 'dashboard/index.html' %}
-{% block counter %} 
+{% block counter %}
 
-<div class="row">
-                  <div class="col-lg-9 main-chart">
+<div class="row mt">
+                  <div class="col-md-12"><h2> Data sources</h2>
+                      <div class="content-panel col-md-5"  style="padding: 2em;">
+                          <div class="form-check" style="display: block;">
+                              <label class="form-check-label" for="defaultCheck1" style="margin-right: 21em"> 
+                                Accounts
+                              </label>
+                              <input data-toggle="toggle"  checked type="checkbox" value="" id="defaultCheck1">
 
-                        <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                  Default checkbox
-                                </label>
-                              </div>
-                  </div>
+                              <h3>30000 records</h3> 
+                            </div>
+                      </div><!--/content-panel -->
 
 
-</div>
 
+                      <div class="content-panel col-md-5"  style="padding: 2em;">
+                          <div class="form-check" style="display: block;">
+                               <label class="form-check-label" for="defaultCheck1" style="margin-right: 21em"> 
+                                Leads
+                              </label>
+                              <input data-toggle="toggle"  checked type="checkbox" value="" id="defaultCheck1">
+
+                              <h3>23150 records</h3> 
+                            </div>
+                      </div><!--/content-panel -->
+
+                      <div class="content-panel col-md-5"  style="padding: 2em;">
+                          <div class="form-check" style="display: block;">
+                              <label class="form-check-label" for="defaultCheck1" style="margin-right: 20em">
+                                  Opportunity
+                                </label>  
+                            <input  data-toggle="toggle"  checked type="checkbox" value="" id="defaultCheck1">
+                              
+                              <h3>2310 records</h3> 
+                            </div>
+                      </div><!--/content-panel -->
+
+                      <div class="content-panel col-md-5"  style="padding: 2em;">
+                          <div class="form-check" style="display: block;">
+                               <label class="form-check-label" for="defaultCheck1" style="margin-right: 20em"> 
+                                Contacts
+                              </label>
+                              <input data-toggle="toggle"  checked type="checkbox" value="" id="defaultCheck1">
+                            
+                              <h3>4510 records</h3> 
+                            </div>
+                      </div><!--/content-panel -->
+                  </div><!--/col-md-12 -->
+              </div><!--/row -->
 
 
 {% endblock %}
